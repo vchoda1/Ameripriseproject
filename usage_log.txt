@@ -1,0 +1,71 @@
+    1  sudo apt-get update
+    2  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg     lsb-release
+    3  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+    4  echo   "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+    5    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+    6  sudo apt-get update
+    7  docker images
+    8  sudo docker images
+    9  su
+   10  sudo su passwd
+   11  sudo passwd root
+   12  su
+   13  exit
+   14  sudo apt-get install openjdk-11-jdk
+   15  pwd
+   16  git clone https://github.com/vchoda1/Ameripriseproject
+   17  ls
+   18  clear
+   19  su
+   20  ls
+   21  cd Ameri
+   22  cd /home/chinky/Ameripriseproject/Rest-Service/
+   23  ls -ltr
+   24  pwd
+   25  sudo docker images
+   26  docker build -t "tag_name_spe" .
+   27  sudo docker build -t "tag_name_spe" .
+   28  sudo docker images
+   29  docker run -p 8085:8080 sep25
+   30  sudo docker run -p 8085:8080 sep25
+   31  ls -ltr
+   32  mvn spring-boot:run
+   33  docker ps -a
+   34  sudo docker ps -a
+   35  docker rm 14f000e390ed
+   36  sudo docker rm 14f000e390ed
+   37  sudo docker ps -a
+   38  sudo docker images
+   39  docker run -dp 8080:8080 sep25
+   40  sudo docker run -dp 8080:8080 sep25
+   41  docker attach sep25
+   42  sudo docker attach sep25
+   43  ls
+   44  sudo docker ps
+   45  sudo docker rm 326af6d40f97
+   46  sudo docker sstop 326af6d40f97
+   47  sudo docker stop 326af6d40f97
+   48  sudo docker rm 326af6d40f97
+   49  sudo docker run -dp 8085:8080 sep25
+   50  sudo docker ps
+   51  sudo docker -version
+   52  sudo docker ps -a
+   53  sudo docker inspect 948506e01d46
+   54  sudo docker inspect 948506e01d46 | grep 0.0.0.0
+   55  sudo docker images
+   56  sudo docker push repo_test:sep25
+   57  sudo docker push sep25
+   58  sudo docker push vijayashree1271/first:sep25
+   59  ls -ltr
+   60  sudo docker -t vijayashree1271/first:sep215
+   61  sudo docker push vijayashree1271/first:sep25 .
+   62  sudo docker build -t vijayashree1271/first:sep215 .
+   63  sudo docker push vijayashree1271/first:sep215 
+   64  docker login
+   65  sudo docker login
+   66  sudo docker push vijayashree1271/first:sep215 
+   67  sudo docker images
+   68  sudo docker build -t vijayashree1271/test_rep:sep25 .
+   69  sudo docker push vijayashree1271/test_rep:sep25 
+   70  ls -ltr
+   71  history > usage_log.txt
